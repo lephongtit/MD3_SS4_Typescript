@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7c8df4d-82bf-4287-8fab-767c1dd21e5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/ SS13_Simple_login/src/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Form_Data_Binding/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/repository/GeneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/repository/Impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/KIEM_TRA_1/src/com/codegym/views/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/controller/TypeNoteControlle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/model/TypeNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/repository/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/repository/TypeNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/service/TypeNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/java/com/codegym/service/impl/TypeNoteServiceIpml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/type_note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/type_note/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/type_note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Model2_iNote/src/main/webapp/WEB-INF/views/type_note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/java/com/codegym/cms/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS13_ java-web-currency-converter/src/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS13_Product_Discount_Calculator/src/ProductDiscountCaculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS13_Tu_dien_AnhViet/src/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/.idea/artifacts/SS14_Danh_sach_khach_hang_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/SS14_Danh_sach_khach_hang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/anh/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/anh/hoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/anh/khoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/anh/nam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Danh_sach_khach_hang/web/anh/thi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Tu_dien_JSP/web/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Ung_dung_Calulator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_Ung_dung_Calulator/src/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS14_chuyen_doi_tien_te_JSP/web/WEB-INF/view/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS15_Ung_dung_quan_ly_khach_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_BT_Chuyen_doi_tien_te/src/Controller/calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/views/convert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_Ung_dung_tu_dien/src/controller/Translate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_Ung_dung_tu_dien/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_Ung_dung_tu_dien/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS16_Ung_dung_tu_dien/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS17_May_tinh_don_gian/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS17_May_tinh_don_gian/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS17_SandWich/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS17_SandWich/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/java/com/codegym/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/java/com/codegym/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS18_Custom_Validation/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/java/com/codegym/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS21_Validate_form/src/main/webapp/WEB-INF/views/signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/src/main/java/com/codegym/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/src/main/java/com/codegym/controller/CounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/src/main/java/com/codegym/model/MyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_hit_counter/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/src/main/java/com/codegym/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_save_user/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/model/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/java/com/codegym/service/impl/ProductsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/views/product/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/editQuantity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_He_cac_hinh_hoc/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_He_cac_hinh_hoc/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_He_cac_hinh_hoc/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_He_cac_hinh_hoc/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_He_cac_hinh_hoc/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Circle_va_Cilynder/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Circle_va_Cilynder/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Circle_va_Cilynder/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Point2D_va_lop_Point3D_java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Point2D_va_lop_Point3D_java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Point2D_va_lop_Point3D_java/src/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Point2D_va_lop_Point3D_java/src/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Lop_Point_va_MoveablePoint/SS4_Lop_Point_va_MoveablePoint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS4_Thiet_ke_va_trien_khai_lop_Triangle/SS4_Thiet_ke_va_trien_khai_lop_Triangle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS5_Interface_Colorable/src/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS5_Interface_Colorable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS5_Interface_Colorable/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS5_Interface_Colorable/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS5_Interface_Colorable/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_Linked_List/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_Linked_List/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_Linkedlist/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_Linkedlist/src/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_lop_List_don_gian/src/MylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_phuong_thuc/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS7_Trien_khai_phuong_thuc/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS8_TH_tach_bien/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS8_TH_tach_bien/test/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/SS8_TH_tach_phuong_thuc/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/main/java/com/codegym/controller/SessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Test/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/controllers/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/java/com/codegym/cms/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/reponse/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/java/com/codegym/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/resources/messag_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/webapp/WEB-INF/views/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Ung_ung_blog_quoc_te/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Up_load_SS17/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Up_load_SS17/src/main/java/controller/MyFileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Up_load_SS17/src/main/java/form/MyUploadForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/Validate_infor_user/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/model/Diem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/model/Khoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/model/Monhoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/model/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/repository/SinhVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/co_so_du_lieu/src/main/java/service/SinhVienService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/model/Khoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/model/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/repository/Impl/SinhVienRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/repository/SinhVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/service/Impl/SinhVienImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/java/com/codegym/cms/service/SinhVienService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer-management-restful/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/java/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/customer_thymeleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo/web/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/model/CustomerForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/repository/GenneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/java/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/WEB-INF/views/customer/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/image/hinh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/image/hinh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/image/hinh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/image/hinh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/demo_spring_controller/src/main/webapp/image/hinh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/controller/NoteTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/model/NoteType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/repository/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/repository/NoteTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/service/NoteTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/java/com/codegym/service/impl/NoteTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/iNotes/src/main/webapp/WEB-INF/views/note/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/repository/TypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/java/com/codegym/service/impl/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/webapp/WEB-INF/views/product/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/webapp/WEB-INF/views/type/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_Model2/src/main/webapp/WEB-INF/views/type/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/model/EmployeeForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/repository/DepartmenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiem_tra_giua_module/src/main/webapp/WEB-INF/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/model/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/repository/ProductTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/service/ProductTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/java/com/codegym/service/impl/ProductTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/webapp/WEB-INF/views/error.404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/webapp/WEB-INF/views/product/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/webapp/WEB-INF/views/product/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/webapp/WEB-INF/views/product/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/kiemtra/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/resources/message_vn.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/quan_ly_khach_hang_i18/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sever_time/src/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sprin-security/src/main/java/com/codegym/MvcWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sprin-security/src/main/java/com/codegym/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sprin-security/src/main/java/com/codegym/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sprin-security/src/main/java/com/codegym/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/sprin-security/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/spring-timezone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/spring-timezone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/spring-timezone/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/artifacts/tu_dien_ahihi_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/src/controllers/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/src/models/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/src/services/DictionaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/web/WEB-INF/views/mean.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/tu_dien_ahihi/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled5/test/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/.idea/artifacts/untitled7_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IdeaProjects/untitled7/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gallery_bootstrap/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MD3_Jquery-UI/JQuery_UI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MD3_TH_Bootstrap/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MD3_TH_Bootstrap/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MD3_TH_Bootstrap/poly.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mang_1/Frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TEST/TEST.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tao_CV/CV.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tao_CV/cv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tao_CV/i am.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tao_hieu_ung_JQuery/tao_hieu_ung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Truyen_ngan/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Truyen_ngan/truyen_ngan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bo_cuc_co_ban/Bo_cuc_co_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bo_cuc_co_ban/fixed_header_and_fixed_footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bo_cuc_co_ban/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bo_cuc_co_ban/style_bo_cuc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/demo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrow_function.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bien_kieu_dl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doi-tuong.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ham.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mang.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/promise.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Kiem_Tra_Giua_Md/Bai4.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/promise.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2856">
+              <caret line="168" column="15" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mang.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bien_kieu_dl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo.ts" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/arrow_function.ts" />
+        <option value="$PROJECT_DIR$/bien_kieu_dl.ts" />
+        <option value="$PROJECT_DIR$/mang.js" />
+        <option value="$PROJECT_DIR$/ham.ts" />
+        <option value="$PROJECT_DIR$/doi-tuong.ts" />
+        <option value="$PROJECT_DIR$/mang.ts" />
+        <option value="$PROJECT_DIR$/promise.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/demo_typescript.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="905" />
+    <option name="width" value="935" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo_typescript" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_typescript" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/firstApp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Users\Admin\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.doi-tuong.js">
+    <configuration name="arrow_function.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="arrow_function.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="bien_kieu_dl.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="bien_kieu_dl.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="doi-tuong.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="doi-tuong.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="ham.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="ham.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="mang.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="mang.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.doi-tuong.js" />
+        <item itemvalue="Node.js.ham.js" />
+        <item itemvalue="Node.js.mang.js" />
+        <item itemvalue="Node.js.bien_kieu_dl.js" />
+        <item itemvalue="Node.js.arrow_function.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7c8df4d-82bf-4287-8fab-767c1dd21e5c" name="Default Changelist" comment="" />
+      <created>1572487139593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572487139593</updated>
+      <workItem from="1572487140745" duration="4166000" />
+      <workItem from="1572530451781" duration="1426000" />
+      <workItem from="1572576990182" duration="4427000" />
+      <workItem from="1572830657099" duration="2108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12127000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1480" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08593208" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32841823" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32841823" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo.js" />
+        <option value="$PROJECT_DIR$/demo.js.map" />
+        <option value="$PROJECT_DIR$/arrow_function.js" />
+        <option value="$PROJECT_DIR$/bien_kieu_dl.js" />
+        <option value="$PROJECT_DIR$/mang.js" />
+        <option value="$PROJECT_DIR$/ham.js" />
+        <option value="$PROJECT_DIR$/doi-tuong.js" />
+        <option value="$PROJECT_DIR$/promise.js" />
+      </list>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrow_function.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arrow_function.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bien_kieu_dl.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doi-tuong.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ham.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ham.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doi-tuong.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mang.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promise.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="168" column="15" selection-start-line="168" selection-start-column="15" selection-end-line="168" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bien_kieu_dl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
